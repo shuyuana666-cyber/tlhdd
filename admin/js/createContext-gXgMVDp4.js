@@ -1,0 +1,1 @@
+import{J as e,Ut as t,gn as n,gt as r}from"./runtime-core.esm-bundler-BqIb1SNH.js";import{r as i}from"./en_US-Cv9hrLhb.js";function a(a){let o=Symbol(`contextKey`);return{useProvide:(e,a)=>{let s=n({});return r(o,s),t(()=>{i(s,e,a||{})}),s},useInject:()=>e(o,a)||{}}}export{a as t};

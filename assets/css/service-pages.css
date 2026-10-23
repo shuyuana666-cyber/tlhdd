@@ -1,0 +1,322 @@
+.service-page {
+  color: #15191d;
+  background: #f5f7f8;
+}
+
+.service-page .service-container {
+  width: min(1320px, calc(100% - 72px));
+  margin-inline: auto;
+}
+
+.service-page .service-hero {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  min-height: 430px;
+  margin-inline: auto;
+  overflow: hidden;
+  color: #fff;
+  background: #17232b;
+}
+
+.service-page .service-hero-media,
+.service-page .service-hero-shade {
+  position: absolute;
+  inset: 0;
+}
+
+.service-page .service-hero-media {
+  background-position: center;
+  background-size: cover;
+}
+
+.service-page .service-hero-shade {
+  background: linear-gradient(90deg, rgba(5, 13, 20, .76), rgba(5, 13, 20, .25) 72%);
+}
+
+.service-page .service-hero-copy {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 65px;
+}
+
+.service-page .service-hero-copy p,
+.service-page .service-kicker {
+  margin: 0 0 13px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.service-page .service-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(46px, 5.5vw, 78px);
+  line-height: 1.12;
+}
+
+.service-page .service-hero-copy span {
+  max-width: 600px;
+  margin-top: 18px;
+  font-size: clamp(15px, 1.5vw, 19px);
+  line-height: 1.7;
+}
+
+.service-page .service-breadcrumb {
+  padding: 18px 0;
+  color: #657079;
+  background: #fff;
+  font-size: 14px;
+}
+
+.service-page .service-breadcrumb .service-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.service-page .service-breadcrumb a {
+  color: inherit;
+}
+
+.service-page .service-breadcrumb [aria-current] {
+  color: #152635;
+  font-weight: 700;
+}
+
+.service-page .service-section {
+  padding: 96px 0;
+}
+
+.service-page .service-section.is-white {
+  background: #fff;
+}
+
+.service-page .service-heading {
+  max-width: 780px;
+  margin-bottom: 42px;
+}
+
+.service-page .service-kicker {
+  color: #0875ad;
+}
+
+.service-page .service-heading h2,
+.service-page .service-feature h2,
+.service-page .service-cta h2 {
+  margin: 0 0 16px;
+  font-size: clamp(32px, 3.5vw, 50px);
+  line-height: 1.2;
+}
+
+.service-page .service-heading > p:last-child,
+.service-page .service-feature p,
+.service-page .service-option-card p,
+.service-page .service-mode-card p,
+.service-page .service-step p,
+.service-page .service-care-card p {
+  color: #5d6871;
+  line-height: 1.8;
+}
+
+.service-page .service-option-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.service-page .service-option-card,
+.service-page .service-mode-card,
+.service-page .service-step,
+.service-page .service-care-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e3e8eb;
+  border-radius: 20px;
+}
+
+.service-page .service-option-media,
+.service-page .service-mode-media,
+.service-page .service-feature-media,
+.service-page .service-care-media {
+  display: block;
+  aspect-ratio: 16 / 9;
+  background: #d9e0e4 var(--service-image, none) center / cover no-repeat;
+}
+
+.service-page .service-option-card > div,
+.service-page .service-mode-card > div,
+.service-page .service-care-card > div {
+  padding: 22px 24px 28px;
+}
+
+.service-page .service-option-card h3,
+.service-page .service-mode-card h3,
+.service-page .service-care-card h3 {
+  margin: 0 0 8px;
+  font-size: 23px;
+}
+
+.service-page .service-option-card strong {
+  display: block;
+  margin: 11px 0 2px;
+  color: #0875ad;
+  font-size: 22px;
+}
+
+.service-page .service-price-note {
+  display: block;
+  margin-bottom: 13px;
+  color: #657079;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.service-page .service-option-card p,
+.service-page .service-mode-card p,
+.service-page .service-care-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.service-page .service-note {
+  margin: 22px 0 0;
+  color: #657079;
+  font-size: 13px;
+}
+
+.service-page .service-mode-grid,
+.service-page .service-care-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.service-page .service-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 65px;
+}
+
+.service-page .service-feature-media {
+  border-radius: 22px;
+}
+
+.service-page .service-feature p {
+  margin: 0 0 18px;
+}
+
+.service-page .service-process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.service-page .service-step {
+  min-height: 245px;
+  padding: 28px;
+}
+
+.service-page .service-step > span {
+  display: block;
+  margin-bottom: 25px;
+  color: #0875ad;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.service-page .service-step h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.service-page .service-step p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.service-page .service-cta {
+  padding: 70px 0;
+  color: #fff;
+  background: #122433;
+}
+
+.service-page .service-cta .service-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.service-page .service-cta h2 {
+  margin: 0;
+}
+
+.service-page .service-button {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 25px;
+  color: #fff;
+  background: #0875ad;
+  border-radius: 999px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.service-page .service-button:hover {
+  background: #056493;
+}
+
+.service-page .service-cta .service-button {
+  color: #122433;
+  background: #fff;
+}
+
+@media (max-width: 1180px) {
+  .service-page .service-option-grid,
+  .service-page .service-process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .service-page .service-container {
+    width: min(100% - 32px, 560px);
+  }
+  .service-page .service-hero {
+    min-height: 370px;
+    aspect-ratio: auto;
+  }
+  .service-page .service-hero-copy {
+    padding-top: 75px;
+  }
+  .service-page .service-section {
+    padding: 62px 0;
+  }
+  .service-page .service-option-grid,
+  .service-page .service-mode-grid,
+  .service-page .service-care-grid,
+  .service-page .service-process-grid,
+  .service-page .service-feature {
+    grid-template-columns: 1fr;
+  }
+  .service-page .service-feature {
+    gap: 26px;
+  }
+  .service-page .service-step {
+    min-height: 0;
+  }
+  .service-page .service-cta .service-container {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

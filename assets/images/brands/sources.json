@@ -1,0 +1,87 @@
+{
+  "retrieved": "2026-10-01",
+  "notice": "Brand marks belong to their respective owners; used to identify the vehicle brands.",
+  "assets": [
+    {
+      "file": "volkswagen-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/volkswagen-logo.svg",
+      "sha256": "870b1e89ead551c13bb6747602d0fb62ac4666f878e1eb037d5eb4b7871849f3"
+    },
+    {
+      "file": "audi-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/audi-logo.svg",
+      "sha256": "9076b14ed426ac9cdcd29a4060e1ad2251b0193db9c092b3091eb55642f3acb5"
+    },
+    {
+      "file": "bmw-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/bmw-logo.svg",
+      "sha256": "aafad991a0aa01e08253062560f7dfbb2c5cc18c152c006cfa512547b849aba6"
+    },
+    {
+      "file": "toyota-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/toyota-logo.svg",
+      "sha256": "f2766a58ee9095a6a101797ccfc39333935463a1ba06f2eae1a15386b26808aa"
+    },
+    {
+      "file": "honda-logo.png",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/honda-logo.png",
+      "sha256": "52d18a212aab6f210bbd49aebebb111ad2c3ec6d298da44afd994c13493ed836"
+    },
+    {
+      "file": "nissan-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/nissan-logo.svg",
+      "sha256": "0f572d61f6660d3f9908ce9e5254622d933e0ed7990ddf84bfcffda089cb8163"
+    },
+    {
+      "file": "mazda-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/mazda-logo.svg",
+      "sha256": "097c79bff478dcbebb17e0b23c957997829ae8376830054162c81e1f33a029f5"
+    },
+    {
+      "file": "hyundai-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/hyundai-logo.svg",
+      "sha256": "a5da4c0375eb9a03875c5258e955e5b9a4cdcd7b7fad620ada471eff8f0f758e"
+    },
+    {
+      "file": "skoda-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/skoda-logo.svg",
+      "sha256": "ebb59b84fe4a5fd69c6672ecb281b5e0eeba918fdb21e446eec038322742fdc6"
+    },
+    {
+      "file": "haval-logo.png",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/haval-logo.png",
+      "sha256": "95e0cc9792373a83a9cf848c1cabf9a798fd7da51b7e6f15d6c54ab445b49471"
+    },
+    {
+      "file": "chery-logo.png",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/chery-logo.png",
+      "sha256": "2a75c2fae96e604b95f6d09a36fdabeaccdb66eaad67acee4b5c4aadb85f7740"
+    },
+    {
+      "file": "hongqi-logo.png",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/hongqi-logo.png",
+      "sha256": "970db32ed061ac4a9fe7649ea25397c73d62569cd93cf84579262afc49a5aa0f"
+    },
+    {
+      "file": "ford-logo.png",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/ford-logo.png",
+      "sha256": "1ef4c73b180d78e2b0670bd6ba23d6c7c7a6c96ea792b75cad62fc9b38ffd59d"
+    },
+    {
+      "file": "mitsubishi-logo.svg",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/mitsubishi-logo.svg",
+      "sha256": "fe854795b344c5e2c74648d3f2f0d4b1ebe09b9330820fe49ded27e6870ae970"
+    },
+    {
+      "file": "chevrolet-logo.png",
+      "source": "https://raw.githubusercontent.com/vehiclespecs/brand-logos/3f0929e70e0a9a2a502063edc4b3e5c0146cba74/chevrolet-logo.png",
+      "sha256": "d29a2bf3f3eca14214a4809b399a793d0034e3ac58c6a4e8fc926bc9e5a97909"
+    },
+    {
+      "file": "jetta-logo.png",
+      "source": "https://jetta.faw-vw.com/assets/index.582be663.js",
+      "website": "https://jetta.faw-vw.com/",
+      "sha256": "12c0a8ba957f8f11c316ee28f62c98d21e308dbd17f9d5176bde50ad69032c4f"
+    }
+  ]
+}

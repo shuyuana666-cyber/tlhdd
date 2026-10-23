@@ -1,0 +1,1 @@
+import{vn as e}from"./runtime-core.esm-bundler-BqIb1SNH.js";function t(t){let n=typeof t==`function`?t():t,r=e(n);function i(e){r.value=e}return[r,i]}export{t};

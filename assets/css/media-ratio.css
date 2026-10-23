@@ -1,0 +1,86 @@
+/*
+ * Frontend media contract
+ *
+ * Every visible photo slot uses the same 16:9 frame. Source files keep their
+ * original dimensions; cover rendering crops oversized images at the frame.
+ * Full-bleed hero/background scenes keep their own page height so the layout
+ * does not jump while the image ratio remains consistent in cards and media
+ * components.
+ */
+:root {
+  --frontend-media-ratio: 16 / 9;
+}
+
+/* Shared catalog, detail, forum and contact media slots. */
+.catalog-image,
+.part-product-image,
+.used-product-image,
+.gallery-main,
+.gallery-thumbs button,
+.mini-vehicle-image,
+.forum-card-image,
+.forum-detail-image,
+.forum-detail-video,
+.part-detail-media,
+.image-panel,
+.image-panel.compact,
+.seller-product-image {
+  aspect-ratio: var(--frontend-media-ratio);
+  min-height: 0 !important;
+  height: auto !important;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Export cards set a fixed height in their redesign layer; let the ratio win. */
+.export-redesign .catalog-image,
+.export-redesign .used-product-image {
+  flex-basis: auto !important;
+}
+
+/* About page photos and team cards. */
+.about-redesign .about-intro-photo,
+.about-redesign .about-unit-photo,
+.about-redesign .about-mini-strip span,
+.about-redesign .about-team-track article {
+  aspect-ratio: var(--frontend-media-ratio);
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: hidden;
+}
+
+.about-redesign .about-intro-photo img,
+.about-redesign .about-unit-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Home page image cards and the moving photo wall. */
+.home-redesign .kh-business-card,
+.home-redesign .kh-photo-stat,
+.home-redesign .kh-news-feature {
+  aspect-ratio: var(--frontend-media-ratio);
+  min-height: 0 !important;
+  height: auto !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-redesign .kh-wall-row span {
+  width: 245px;
+  height: auto !important;
+  aspect-ratio: var(--frontend-media-ratio);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Upload previews and thumbnails follow the same frame as their final media. */
+.forum-media-item img,
+.forum-media-item video {
+  width: 62px;
+  height: auto !important;
+  aspect-ratio: var(--frontend-media-ratio);
+  object-fit: cover;
+}
